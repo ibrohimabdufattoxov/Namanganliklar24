@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&family=Rubik:wght@400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&family=Roboto:wght@400;500&family=Rubik:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container{
+    max-width: 1240px;
+    width: 100%;
+    /* margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto; */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.header-top-wrapper{
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-wrapper{
+    width: 320px;
+    height: 44px;
+    padding: 4px 8px;
+
+    background-color: #fff;
+    box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.course-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.course-list-item{
+    margin: 0 20px;
+}
+
+.current{
+    font-family: 'Rubik' sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    color: #7A7A7A;
+    line-height: normal;
+}
+
+.current > span{
+    font-family: 'Rubik' sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    color: #285193;
+}
+
+.header-top-btn{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.search-box{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.language-blog{
+    margin: 0 24px 0 28px;
+    padding: 11px 11px;
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.language{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #535353;
+}
+
+.language-img{
+    width: 20px;
+    height: 20px;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+
+.telegram-join{
+    padding: 11px 12px 8px 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 19px;
+    color: #fff;
+    margin-left: 5px;
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    border-radius: 5px;
+}
+
+.course{
+    margin-right: 200px ;
+}
+
+.navbar{
+    width: 100%;
+    padding: 22px 24px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.nav-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0 20px;
+    cursor: pointer;
+    color: #515151;
+}
+
+.nav-link:hover{
+    color: #295093;
+}
+
+.aside-blog{
+    margin-top: 25px;
+}
+
+
+/* HEADER END */
+
+
+/* COVID INFORMATION SECTION START */
+.covid-information-blog{
+    background-color: #f6f6f9;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.covid-list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.covid-item{
+    display: flex;align-items: center;
+}
+
+.covid-img{
+    margin:0 25px;
+}
+
+.covid-info-title{
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    color: #000;
+}
+
+.covid-info-text{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #DB0000;
+}
+
+.covid-section{
+    padding: 45px;
+}
+
+.covid-info-text2{
+    color: #05B135;
+}
+
+.covid-info-text3{
+    color: black;
+}
+
+/* COVID INFORMATION SECTION END */
+
+/* POSTS SECTION START */
+.posts-blog{
+    width: 35%;
+}
+
+.date{
+    color: #6B6D97;
+}
+
+.posts-title{
+    color: #202020;
+}
+
+.posts-list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: ;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.blog-posts{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.blog-posts-second{
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.posts-item+.posts-item{
+    margin-left: 20px;
+}
+
+.second-left{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.left-text{
+    margin-left: 19px;
+}
+
+.right-text{
+    width: 50%;
+    background-color: #FE5C28;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-left: 420px;
+}
+
+.posts-second{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.posts-second{
+    width: 90%;
+    background-color: #EFBA54;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.news-right{
+    width: 386px;
+    height: 542px;
+
+}
+
+.news-left{
+    width: 512px;
+    height: 74px;
+}
+
+.news-section{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.right-two+.right-two{
+    margin-top: 30px;
+}
+
+.left-title{
+    margin-top: 0px;
+}
+
+.posts-blog{
+    width: 801px;
+}
+/* POSTS SECTION END */
